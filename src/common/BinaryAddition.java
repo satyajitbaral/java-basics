@@ -15,6 +15,16 @@ public class BinaryAddition {
     System.out.print("Enter second binary number: ");
     num2 = scanner.nextLong();
 
+    /*
+     *
+     *  111
+     *  1
+     *
+     * 01
+     * 10
+     * 11
+     */
+
     while (num1 != 0 || num2 != 0) {
       sum[i++] = (int) ((num1 % 10 + num2 % 10 + carry) % 2);
       carry = (int) ((num1 % 10 + num2 % 10 + carry) / 2);

@@ -33,16 +33,6 @@ public class Reverse {
     {
         String str = "geeg";
 
-        /**
-         *
-         *     geeeeeg
-         *
-         *
-         *
-         *
-         */
-
-
         if (isPalindrome(str))
             System.out.println("Yes");
         else

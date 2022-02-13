@@ -1,5 +1,6 @@
 package recursion;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LongestWord {
@@ -10,10 +11,10 @@ public class LongestWord {
     //    System.out.println("Enter the sentence:");
     //    String str = sc.nextLine();
 
-    System.out.println(longestWord("the quick brown-fox jump over the lazy dog"));
+    String s  = "a brown-fox jumps over a lazy dog";
+    System.out.println(longestWord(s));
 
     //    sc.close();
-
   }
 
   private static String longestWord(String str) {
